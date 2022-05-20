@@ -1,0 +1,70 @@
+@media screen and (min-width:600px){
+    
+
+.wave{
+    height: 500px;
+    width: 100%;
+    background-image: url("wave.png");
+    background-size: cover;
+    background-position: 90ex;
+    animation: wave 6s linear infinite;
+}
+
+@keyframes  wave {
+    25%{
+        background-position: 20ex;
+    }
+    50%{
+        background-position: 40ex;
+    }
+    75%{
+        background-position: 60ex;
+    }
+    100%{
+        background-position: 80ex;
+    }
+    
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:599px){
+    
+
+    .wave{
+        height: 100px;
+        width: 100%;
+        background-image: url("wave.png");
+        background-size: cover;
+        animation: wave 6s linear infinite;
+    }
+    
+    @keyframes  wave {
+        25%{
+            background-position: 20ex;
+        }
+        50%{
+            background-position: 40ex;
+        }
+        75%{
+            background-position: 60ex;
+        }
+        100%{
+            background-position: 80ex;
+        }
+        
+    
+    }
+    }

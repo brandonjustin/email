@@ -1,0 +1,148 @@
+@media screen and (min-width:700px) {
+    
+
+form{
+    height: 95vh;
+    margin-top: 40px;
+    width: 500px;
+    box-shadow: 2px 2px 8px gainsboro;
+    background-color: white;
+    padding: 12px 18px;
+}
+input{
+    display: block;
+    border: none;
+    border-bottom: 1px solid;
+    width: 90%;
+    height:34px;
+    margin-bottom: 12px;
+    
+}
+
+textarea{
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    height: 250px;
+}
+
+.effect{
+    height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url("banner_2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.info{
+ margin-top: 68px;
+}
+
+.svg{
+ line-height: 70px;
+}
+
+.button{
+    width:100%;
+    border-style:none;
+    padding: 15px;
+    text-align: center;
+    height: auto;
+    font-size: 20px;
+    color:white;
+    background-color: dodgerblue;
+    transition: 0.4s;
+}
+
+.button:active{
+    background-color: greenyellow;
+}
+
+}
+
+
+/*############-----mobile-----###########*/
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .icons{
+        width: 20px;
+     
+    }
+
+    form{
+        height: 95vh;
+        margin-top: 40px;
+        width: 100%;
+        box-shadow: 2px 2px 8px gainsboro;
+        background-color: white;
+        padding: 12px 18px;
+    }
+    input{
+        display: block;
+        border: none;
+        border-bottom: 1px solid;
+        width: 99%;
+        height:34px;
+        margin-bottom: 12px;
+        
+    }
+
+    label{
+        color: grey;
+    }
+
+    .special{
+        margin-top: 150px;
+    }
+    textarea{
+        width: 99%;
+        margin-top: 10px;
+        margin-bottom: 18px;
+        height: 250px;
+    }
+    
+    .effect{
+        margin-top: 1500px;
+        height: 110vh;
+        display: flex;
+flex-direction: column;
+        justify-content: space-evenly;
+        background-image: url("banner_2.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+    }
+    
+    .info{
+     margin-top: 68px;
+    }
+    
+    .svg{
+     line-height: 30px;
+     margin-left: 14px;
+     
+    }
+    
+    .button{
+        width:100%;
+        border-style:none;
+        padding: 15px;
+        text-align: center;
+        height: auto;
+        font-size: 20px;
+        color:white;
+        background-color: dodgerblue;
+        transition: 0.4s;
+    }
+    
+    .button:active{
+        background-color: greenyellow;
+    }
+    
+    }
